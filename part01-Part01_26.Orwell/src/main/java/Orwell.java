@@ -7,5 +7,10 @@ public class Orwell {
         Scanner scan = new Scanner(System.in);
 
         // Write your program here
+        System.out.println("Give a number:");
+        int year = scan.nextInt();
+        if (year == 1984) {
+            System.out.println("Orwell");
+        }
     }
 }
